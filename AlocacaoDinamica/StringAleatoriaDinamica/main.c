@@ -18,8 +18,11 @@ char * GerarStringAleatoria(int n){
     str[i] = '\0';
     
     return str;
-   
+    
 }
+
+
+
 int main()
 {
     srand(time(NULL));
@@ -27,6 +30,6 @@ int main()
     char * s = GerarStringAleatoria(15);
     
     puts(s);
-    free(s);
+
     return 0;
 }

@@ -7,6 +7,7 @@ struct piloto{
 };
 typedef struct piloto PILOTO;
 
+
 void calcula_classificacao(PILOTO p[N], PILOTO *campeao, PILOTO *vice){
     int i = 0;
     

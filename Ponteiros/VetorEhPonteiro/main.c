@@ -7,11 +7,21 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 #include <stdio.h>
-
+void escreve( int *v, int n){
+    
+    int i;
+    
+    for(i=0; i < n; i++){
+        printf("%d\n", v[i]);
+    }
+}
 int main()
 {
-    int *numeros;
-    int n;
+    int v1[5] = {7,8,2,1,4};
+    int v2[3] = {5,1,4};
     
-    numeros = malloc(n * sizeof(int));
+    escreve(v1,5);
+    escreve(v1,3);
+    
+    return 0;
 }

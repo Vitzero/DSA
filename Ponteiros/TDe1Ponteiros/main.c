@@ -13,6 +13,7 @@ int calculaDigito(int soma){
         return resto;
     }
 }
+
 void titulo_de_eleitor(char *titulo, int *dv1, int *dv2){
     int i,soma=0,resto, multiplicador = 2, multiplicador2 = 7,soma2 = 0;
     
@@ -29,6 +30,8 @@ void titulo_de_eleitor(char *titulo, int *dv1, int *dv2){
     *dv2 = calculaDigito(soma2);
     
 }
+
+
 int main()
 {
     char titulo[] = {'0','0','4','3','5','6','8','7','0','9'};

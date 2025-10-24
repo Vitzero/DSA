@@ -11,7 +11,7 @@ char * ultimo_nome(char *nome_completo){
     
     char * NovaStr = (char *) malloc((espaco + 1) * sizeof(char));
     if(NovaStr == NULL){
-        exit(1);
+        return null;
     }
     
     int j=0;
@@ -33,6 +33,8 @@ int main()
     char * sobrenome = ultimo_nome(string);
 
     puts(sobrenome);
-    free(sobrenome);
+    
+    free(sobrenome);    
+    
     return 0;
 }
