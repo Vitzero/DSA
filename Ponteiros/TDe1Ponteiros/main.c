@@ -18,14 +18,15 @@ void titulo_de_eleitor(char *titulo, int *dv1, int *dv2){
     int i,soma=0,resto, multiplicador = 2, multiplicador2 = 7,soma2 = 0;
     
     for(i = 0; titulo[i] != '\0'; i++){
-        soma+= (titulo[i] - '0') *multiplicador++;
+        soma+= (titulo[i] - '0') * multiplicador++;
     }
     *dv1 = calculaDigito(soma);
     
     soma2 += multiplicador2++ * *dv1;
-    for(i = 9; titulo[i] != '\0'; i++){
-        soma2 += multiplicador2 * (titulo[i] - '0');
-    }
+    
+    soma2 += (titulo[8] - '0') * 7;
+    soma2 += (titulo[9] - '0') * 8;
+    soma2 += (*dv1) *9;
     
     *dv2 = calculaDigito(soma2);
     
@@ -34,7 +35,7 @@ void titulo_de_eleitor(char *titulo, int *dv1, int *dv2){
 
 int main()
 {
-    char titulo[] = {'0','0','4','3','5','6','8','7','0','9'};
+    char titulo[] = "0043568709";
     int digito1, digito2;
     titulo_de_eleitor(titulo,&digito1,&digito2);
     
