@@ -1,0 +1,4 @@
+Nome: João Silva,    Cadastro: 9010087-2,     n1: 2.0,    n2: 4.3,     n3: 6.5 
+Nome: Maria Santos,    Cadastro: 8820324-3,     n1: 7.0,     n2: 8.2,     n3: 8.5 
+Nome: Ana Pereira,    Cadastro: 9210478-5,     n1: 6.0,     n2: 7.5,     n3: 7.8 
+Nome: Carlos Costa,    Cadastro: 9020256-8,     n1: 3.0,     n2: 0.5,     n3: 4.2

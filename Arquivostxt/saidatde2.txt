@@ -1,0 +1,7 @@
+Nr.      User          espaco usado
+1        anderson           1187.99 MB
+2        rosemary            752.88 MB
+3        alexandre           434.99 MB
+4        antonio             117.74 MB
+5        carlos               87.03 MB
+6        cesar                 0.94 MB

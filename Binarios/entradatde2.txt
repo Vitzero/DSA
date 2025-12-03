@@ -1,0 +1,9 @@
+3
+mamao 2
+tomate 1
+uva 3
+4
+brocolis 2
+tomate 1
+cebola 1
+morango 1
