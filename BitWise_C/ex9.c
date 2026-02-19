@@ -26,6 +26,7 @@ int main(){
     descompactaHora(hora_result, &hora ,&minuto , &segundo);
 
     printf("\n%d : %d : %d\n", hora, minuto, segundo);
+    printf("\n%d : %d : %d\n", hora, minuto, segundo);
 
 }
 
