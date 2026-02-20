@@ -12,13 +12,21 @@ Este repositório reúne uma coleção de exercícios e soluções em C focados 
 Os exercícios estão organizados por diretórios (alguns exemplos):
 
 📁 AlocacaoDinamica/         — Exercícios com alocação dinâmica
+
 📁 Arquivostxt/              — Manipulação de arquivos .txt
+
 📁 Binarios/                 — Manipulação de arquivos binários
+
 📁 BitWise_C/                — Operações bit a bit
+
 📁 Matrizes/                 — Exercícios com matrizes
+
 📁 Ponteiros/                — Uso de ponteiros
+
 📁 Strings/                  — Manipulação de strings
+
 📁 Struct/                   — Estruturas em C
+
 .gitignore
 
 ## 🚀 Como Usar
